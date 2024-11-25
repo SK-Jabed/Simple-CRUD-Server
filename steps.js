@@ -24,10 +24,6 @@
  * 4. add headers: {'content-type': 'application/json'}
  * 5. add body: JSON.Stringify(user)
  *
- *
- *
- *
- *
  * -----------------------
  * READ MANY
  * ------------------------
@@ -46,10 +42,4 @@
  * Client
  * 1. create dynamic url with id
  * 2. mention the DELETE method
- *
- *
- *
- *
- *
- *
  */
