@@ -8,7 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
 const uri =
   "mongodb+srv://SKJ_69:zxcvbnm69@cluster0.baizo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
