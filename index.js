@@ -74,7 +74,6 @@ async function run() {
         res.send(result);
     })
 
-
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
     console.log(
@@ -88,8 +87,6 @@ async function run() {
 run().catch(console.dir);
 
 
-
-
 app.get("/", (req, res) => {
     res.send("Simple CRUD is running")
 })
@@ -97,5 +94,3 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
     console.log(`Simple CRUD is running on port: ${port}`);
 })
-
-
